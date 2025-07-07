@@ -1,0 +1,1 @@
+All APIs follow REST standards. Use bearer tokens for authorization. Ensure endpoints return appropriate HTTP status codes and JSON payloads.

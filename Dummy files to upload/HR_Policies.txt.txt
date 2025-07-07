@@ -1,0 +1,25 @@
+Company Name: ABC Corporation
+Department: Human Resources
+Document: Employee Leave and Benefits Policy
+Version: 3.0 | Updated: March 2024
+
+1. Annual Leave
+- All full-time employees are entitled to 25 days of paid annual leave per calendar year.
+- Leave accrual is monthly and unused leave can be carried forward up to 10 days.
+
+2. Sick Leave
+- Employees receive 12 days of paid sick leave annually.
+- A medical certificate is required for absences exceeding 2 days.
+
+3. Maternity & Paternity Leave
+- Maternity leave: 6 months (paid)
+- Paternity leave: 2 weeks (paid)
+
+4. Insurance Benefits
+- Health insurance is covered 100% for employees and 50% for dependents.
+- Employees can opt-in for dental and vision plans.
+
+5. Remote Work Policy
+- Employees can work remotely up to 2 days a week upon manager approval.
+
+Contact: hr@company.com for more details.

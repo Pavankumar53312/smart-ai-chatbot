@@ -1,0 +1,23 @@
+Company Name: ABC Corporation
+Department: Finance
+Document: Financial Guidelines & Reimbursement Policy
+Version: 1.4 | Updated: February 2024
+
+1. Travel Reimbursement
+- Submit claims within 7 days of travel.
+- Requires travel approval form + receipts.
+
+2. Budget Approvals
+- Department heads must pre-approve budgets exceeding $10,000.
+- Submit proposals via finance-portal.abc.com
+
+3. Payroll Schedule
+- Salary is credited on the 28th of each month.
+- Payslips available on the employee portal.
+
+4. Expense Categories
+- Meals: up to $50/day
+- Hotel: up to $150/night
+- Internet: reimbursed for remote workers (up to $40/month)
+
+Contact: finance@company.com for questions.

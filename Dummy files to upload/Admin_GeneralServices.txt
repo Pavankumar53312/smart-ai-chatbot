@@ -1,0 +1,25 @@
+Company Name: ABC Corporation
+Department: Admin & Facilities
+Document: General Services & Office Procedures
+Version: 1.0 | Updated: April 2024
+
+1. Office Access
+- Office hours: 8:30 AM – 6:00 PM
+- Access cards are mandatory; report lost cards immediately.
+
+2. Cafeteria Services
+- Open from 8 AM – 4 PM on weekdays.
+- Menu updated weekly on the Intranet.
+
+3. Stationery Requests
+- Submit via Admin Portal under “Office Supplies”.
+- Orders processed every Friday.
+
+4. Visitor Policy
+- Visitors must sign in and be accompanied at all times.
+- No after-hours access permitted.
+
+5. Fire Drills
+- Conducted quarterly. Participation is mandatory.
+
+Support: admin@company.com

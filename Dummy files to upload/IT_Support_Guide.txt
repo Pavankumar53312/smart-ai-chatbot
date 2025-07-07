@@ -1,0 +1,26 @@
+Company Name: ABC Corporation
+Department: IT Services
+Document: IT Support Guide & Troubleshooting
+Version: 2.2 | Updated: Jan 2024
+
+1. Password Reset
+- Use the self-service portal at password.abc.com
+- For assistance, contact it-support@company.com
+
+2. VPN Access
+- Download the VPN client from intranet/tools
+- Connect using your domain credentials
+
+3. Email Setup
+- Outlook is the official email client
+- Use IMAP settings: imap.abc.com | smtp.abc.com
+
+4. Hardware Support
+- Loaner laptops are available for on-site staff
+- Submit tickets via ServiceNow for hardware issues
+
+5. Common Errors
+- Error 403: Contact network team
+- Printer offline: Restart printer and retry
+
+Emergency Support: +1-800-123-4567 (24/7)
