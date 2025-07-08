@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using SmartAIChatbot.Api.Data;
 using SmartAIChatbot.Api.Models;
 using SmartAIChatbot.Api.Services;
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 
 namespace SmartAIChatbot.Api.Controllers;
@@ -25,7 +26,12 @@ public class ChatController : ControllerBase
     [HttpPost("ask")]
     public async Task<ActionResult<AskResponse>> Ask([FromBody] AskRequest req)
     {
-        var email = User.Identity?.Name ?? "anonymous";
+        //var email = User.Identity?.Name ?? "anonymous";
+        var email = User.FindFirst(ClaimTypes.Email)?.Value
+          ?? User.FindFirst("emails")?.Value          // AAD tokens
+          ?? User.FindFirst(JwtRegisteredClaimNames.Email)?.Value
+          ?? "anonymous";
+
         var role = User.FindFirst(ClaimTypes.Role)?.Value ?? "General";
 
         var resp = await _chatService.GetAnswerAsync(req.Question, role);
@@ -47,7 +53,12 @@ public class ChatController : ControllerBase
     [HttpGet("history")]
     public async Task<IActionResult> GetHistory()
     {
-        var email = User.Identity?.Name!;
+        //var email = User.Identity?.Name!;
+        var email = User.FindFirst(ClaimTypes.Email)?.Value
+          ?? User.FindFirst("emails")?.Value          // AAD tokens
+          ?? User.FindFirst(JwtRegisteredClaimNames.Email)?.Value
+          ?? "anonymous";
+
         var history = await _db.ChatHistories
             .Where(h => h.UserEmail == email)
             .OrderByDescending(h => h.Timestamp)
